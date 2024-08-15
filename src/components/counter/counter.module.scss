@@ -1,0 +1,24 @@
+@import "../../scss/base";
+
+.appBg{
+    background-color: var(--lightTwo);
+    min-height: 100vh;
+    @include d_colCenter;
+    .appContent{
+        text-align: center
+    }
+    h1{
+        @extend %headingText;
+        span{   
+            @extend %countValText;
+        }
+        margin-bottom: var(--mBtm);
+    }
+    P{
+        @extend %descText;
+        margin-bottom: var(--mBtm);
+    }
+    .countBtn{
+        @extend %btnElement;
+    }
+}

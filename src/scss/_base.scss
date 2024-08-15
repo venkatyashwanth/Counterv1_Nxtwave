@@ -1,0 +1,40 @@
+// Font-Families
+%headingText {
+    font-family: var(--fontVar1);
+    font-weight: 600;
+    font-size: 3.6rem;
+    color: var(--dark);
+}
+
+%countValText {
+    font-family: var(--fontVar1);
+    color: var(--colorOne);
+}
+
+%descText {
+    font-family: var(--fontVar1);
+    color: var(--dark);
+    font-size: 1.8rem;
+}
+
+// BtnProps
+%btnElement {
+    border: none;
+    padding: .8rem 1.6rem;
+    cursor: pointer;
+    color: var(--lightOne);
+    border-radius: 4px;
+    background-color: var(--colorTwo);
+    &:active{
+        background-color: var(--dark);
+    }
+}
+
+
+// Reusables
+@mixin d_colCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

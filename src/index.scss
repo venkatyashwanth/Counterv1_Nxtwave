@@ -1,0 +1,25 @@
+:root{
+    --dark: #2d3a35;
+    --lightOne: #ffffff;
+    --lightTwo: #f1f5f8;
+    --colorOne: #c20a72;
+    --colorTwo: #007bff;
+    --fontVar1: "Roboto", sans-serif;
+    --fontVar2: "Matemasie", sans-serif;
+
+    --mBtm: 2rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
